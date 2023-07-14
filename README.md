@@ -15,4 +15,4 @@ Demonstration of Aztec Lab's Ethereum Foundation Ecosystem Support Program grant
 
 #### Developer Tools
 
-- [ ] Visual Studio Code Linter For DSL
+- [x] Visual Studio Code Linter For DSL
