@@ -4,7 +4,7 @@ Demonstration of smart compiler messages that identifies which of the constraint
 
 ## Steps
 
-1. With Nargo compiled from Noir commit [1f8fd51f](https://github.com/noir-lang/noir/commit/1f8fd51fb28b62e05f4b0c0829d446e43e8b85cc), or from ≥v0.9.0 without the `--experimental-ssa` flag:
+1. With Nargo compiled from Noir commit [1f8fd51f](https://github.com/noir-lang/noir/commit/1f8fd51fb28b62e05f4b0c0829d446e43e8b85cc) or from ≥v0.9.0 (where `--experimental-ssa` would no longer be needed):
 
    Run `nargo prove p --experimental-ssa`
 

@@ -8,9 +8,9 @@ The code is a copy of [zk_token_contract at commit 0189dcf](https://github.com/A
 
 1. Run `git submodule update --init --recursive` at this project's root directory _esp-demo_
 
-2. Navigate to example contract with `cd abi-encoding-rollup-smart-contract/aztec-packages/yarn-project/noir-contracts/src/contracts/zk_token_contract`
+2. Navigate to example contract with `cd aztec-packages/yarn-project/noir-contracts/src/contracts/zk_token_contract`
 
-3. With Nargo compiled from Noir commit [1f8fd51f](https://github.com/noir-lang/noir/commit/1f8fd51fb28b62e05f4b0c0829d446e43e8b85cc), or from ≥v0.9.0 without the `--experimental-ssa` flag:
+3. With Nargo compiled from Noir commit [1f8fd51f](https://github.com/noir-lang/noir/commit/1f8fd51fb28b62e05f4b0c0829d446e43e8b85cc) or from ≥v0.9.0 (where `--experimental-ssa` would no longer be needed):
 
    Run `nargo compile --experimental-ssa --contracts c`
 
